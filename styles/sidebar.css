@@ -1,3 +1,4 @@
+
 .sidebar{
   position: fixed;
   left: 0;
@@ -35,4 +36,11 @@
   font-size: 10px;
   font-family: roboto, Arial;
 
+}
+
+/* Hide sidebar on mobile */
+@media (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
 }
