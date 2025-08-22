@@ -44,3 +44,13 @@
     display: none;
   }
 }
+
+
+  /* Reset content area to full width when sidebar is hidden */
+  .main {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+}
+
+
